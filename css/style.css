@@ -1,0 +1,18 @@
+body {
+  background-color: lightblue;
+}
+.p1 {
+    color: red;
+
+}
+.p2 {
+color: purple;
+
+}
+.p3 {
+color: green;
+
+}
+.p4 {
+    display: block;
+}
