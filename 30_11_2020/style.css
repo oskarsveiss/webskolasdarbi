@@ -1,16 +1,16 @@
 body {
- 
-}
-.pirmais {
   font-family: Arial;
 }
-
+.pirmais {
+  /* font-family: Arial; */
+}
 
 ul.A{
   list-style-type: square;
-  font-family: Arial;
+  /* font-family: Arial; */
   margin-left: 0;
-  }
+}
+
 img{
 margin-left: 50px;
 border-style: solid;
