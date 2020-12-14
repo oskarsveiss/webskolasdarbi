@@ -1,11 +1,10 @@
+body {
+    background-color: #FFFFFF;
+}
 
-
-
+/* TODO: fix @media */
 @media screen and (max-width: 376px) {
-    body {
-      background-color: #FFFFFF;
     
-    }
     /* Lauziens pie līdz 376px - mobile */
 
     .logod{
