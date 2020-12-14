@@ -1,0 +1,514 @@
+
+
+
+@media screen and (max-width: 376px) {
+    body {
+      background-color: #FFFFFF;
+    
+    }
+    /* Lauziens pie līdz 376px - mobile */
+
+    .logod{
+        display: flex;
+        
+    }
+    .logod div{
+        background-image: url('img/Mobile/webskola\ logo\ mobile.png'); 
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 60px;
+        /*margin-top: 11px;
+        margin-left: 157px; */
+        display: flex;
+
+    
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      
+    }
+    .nav p a{
+        font-size: 15px;   
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        line-height: 18px;
+        justify-content: center;
+    }
+    .akcijuplani{
+        font-size: 30px;
+    }
+    /* Sākums starta plānam */
+    .plans1{
+        background-color:#F9F9F9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+    }
+    .plans1 p{
+        font-size: 24px;
+        text-align: center;
+    }
+    .plans1 .pieteikties{
+        font-size: 17px ;
+        background-color: #FC943E;
+        padding: 10px;
+        border-style: none;
+        color: white; 
+        margin-bottom: 20px;      
+           
+    }
+    .plans1 .cena1{
+        font-size: 44px;
+        color: #BFBA00;
+    }
+    p{
+        text-align: center;
+        font-size: 24px;
+}
+
+    /* Sākums starta plānam 2 */
+    .plans2{
+        background-color:#F9F9F9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+        margin-top: 20px;
+    }
+    .plans2 .pieteikties{
+        font-size: 17px ;
+        background-color: #FC943E;
+        padding: 10px;
+        border-style: none;
+        color: white;   
+        margin-bottom: 20px;   
+           
+    }
+    .plans2 .cena1{
+        font-size: 44px;
+        color: #BFBA00;
+    }
+
+    /* Sākums starta plānam 3 */
+    .plans3{
+        background-color:#F9F9F9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+        margin-top: 20px;
+    }
+    .plans3 .pieteikties{
+        font-size: 17px ;
+        background-color: #FC943E;
+        padding: 10px;
+        border-style: none;
+        color: white;  
+        margin-bottom: 20px;     
+           
+    }
+    .plans3 .cena1{
+        font-size: 44px;
+        color: #BFBA00;
+    }
+    /* Sākas formas daļa */
+    .contact{
+        background-color:#FC943E;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        
+    }
+    
+    
+    .formadiv .forma{
+        background-color:#FC943E;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+        
+    }
+    
+    .pogasutit{
+        background-color: #BFBA00;
+        width: 40%;
+        color: white;
+        border-style: none;
+        margin-left: 100px;
+        height: 40px;
+   
+        
+    }
+    .pogasutit1{
+        background-color: #F9F9F9;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-style: none;
+        margin-left: 80px;
+    }
+    
+    
+    .kaja p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin-top: 0px;
+        height: 88px;
+        width: 100%;
+    } 
+
+    }
+
+@media (max-width:768px) and (min-width: 376px) {
+    
+        /* Lauziens pie starp 376px un 768px - tablet */
+       
+        .logod{
+            display: flex;
+            
+        }
+        .logod div{
+            background-image: url('img/Tablet/webskola\ logo.png'); 
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 60px;
+            /*margin-top: 11px;
+            margin-left: 157px; */
+            display: flex;
+    
+        
+        }
+        img{
+            max-width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .nav {
+            display: inline-flex;
+            justify-content: flex-end;
+            float: right;         
+        }
+        .nav p a{
+            font-size: 15px;   
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            line-height: 18px;
+            justify-content: center;
+        }
+        .akcijuplani{
+            font-size: 30px;
+        }
+        /* Sākums starta plānam */
+        .plans1{
+            background-color:#F9F9F9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; 
+        }
+        .plans1 p{
+            font-size: 24px;
+            text-align: center;
+        }
+        .plans1 .pieteikties{
+            font-size: 17px ;
+            background-color: #FC943E;
+            padding: 10px;
+            border-style: none;
+            color: white; 
+            margin-bottom: 20px;      
+               
+        }
+        .plans1 .cena1{
+            font-size: 44px;
+            color: #BFBA00;
+        }
+        p{
+            text-align: center;
+            font-size: 24px;
+    }
+    
+        /* Sākums starta plānam 2 */
+        .plans2{
+            background-color:#F9F9F9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; 
+            margin-top: 20px;
+        }
+        .plans2 .pieteikties{
+            font-size: 17px ;
+            background-color: #FC943E;
+            padding: 10px;
+            border-style: none;
+            color: white;   
+            margin-bottom: 20px;   
+               
+        }
+        .plans2 .cena1{
+            font-size: 44px;
+            color: #BFBA00;
+        }
+    
+        /* Sākums starta plānam 3 */
+        .plans3{
+            background-color:#F9F9F9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; 
+            margin-top: 20px;
+        }
+        .plans3 .pieteikties{
+            font-size: 17px ;
+            background-color: #FC943E;
+            padding: 10px;
+            border-style: none;
+            color: white;  
+            margin-bottom: 20px;     
+               
+        }
+        .plans3 .cena1{
+            font-size: 44px;
+            color: #BFBA00;
+        }
+        /* Sākas formas daļa */
+        .contact{
+            background-color:#FC943E;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+            
+        }
+        
+        
+        .formadiv .forma{
+            background-color:#FC943E;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            
+            
+        }
+        
+        .pogasutit{
+            background-color: #BFBA00;
+            width: 40%;
+            color: white;
+            border-style: none;
+            margin-left: 100px;
+            height: 40px;
+       
+            
+        }
+        .pogasutit1{
+            background-color: #F9F9F9;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-style: none;
+            margin-left: 80px;
+        }
+        
+        
+        .kaja p{
+            background-color: black;
+            color: white;
+            font-size: 15px;
+            margin-top: 0px;
+            height: 88px;
+            width: 100%;
+        } 
+    
+    }
+
+  @media screen and (min-width: 768px) {
+    .logod{
+        display: flex;
+        
+    }
+    .logod div{
+        background-image: url('img/Tablet/webskola\ logo.png'); 
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 60px;
+        /*margin-top: 11px;
+        margin-left: 157px; */
+        display: flex;
+
+    
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav {
+        display: inline-flex;
+        justify-content: flex-end;
+        float: right;         
+    }
+    .nav p a{
+        font-size: 15px;   
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        line-height: 18px;
+        justify-content: center;
+    }
+    .akcijuplani{
+        font-size: 30px;
+    }
+    /* Sākums starta plānam */
+    .plans1{
+        background-color:#F9F9F9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+    }
+    .plans1 p{
+        font-size: 24px;
+        text-align: center;
+    }
+    .plans1 .pieteikties{
+        font-size: 17px ;
+        background-color: #FC943E;
+        padding: 10px;
+        border-style: none;
+        color: white; 
+        margin-bottom: 20px;      
+           
+    }
+    .plans1 .cena1{
+        font-size: 44px;
+        color: #BFBA00;
+    }
+    p{
+        text-align: center;
+        font-size: 24px;
+}
+
+    /* Sākums starta plānam 2 */
+    .plans2{
+        background-color:#F9F9F9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+        margin-top: 20px;
+    }
+    .plans2 .pieteikties{
+        font-size: 17px ;
+        background-color: #FC943E;
+        padding: 10px;
+        border-style: none;
+        color: white;   
+        margin-bottom: 20px;   
+           
+    }
+    .plans2 .cena1{
+        font-size: 44px;
+        color: #BFBA00;
+    }
+
+    /* Sākums starta plānam 3 */
+    .plans3{
+        background-color:#F9F9F9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+        margin-top: 20px;
+    }
+    .plans3 .pieteikties{
+        font-size: 17px ;
+        background-color: #FC943E;
+        padding: 10px;
+        border-style: none;
+        color: white;  
+        margin-bottom: 20px;     
+           
+    }
+    .plans3 .cena1{
+        font-size: 44px;
+        color: #BFBA00;
+    }
+    /* Sākas formas daļa */
+    .contact{
+        background-color:#FC943E;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        
+    }
+    
+    
+    .formadiv .forma{
+        background-color:#FC943E;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+        
+    }
+    
+    .pogasutit{
+        background-color: #BFBA00;
+        width: 40%;
+        color: white;
+        border-style: none;
+        margin-left: 100px;
+        height: 40px;
+   
+        
+    }
+    .pogasutit1{
+        background-color: #F9F9F9;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-style: none;
+        margin-left: 80px;
+    }
+    
+    
+    .kaja p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin-top: 0px;
+        height: 88px;
+        width: 100%;
+    } 
+
+  }
